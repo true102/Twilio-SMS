@@ -28,8 +28,8 @@ If any issues occur (invalid credentials or network errors), they are caught and
 
 The script follows a modular structure:
 
-key.py: Stores sensitive data like Twilio credentials and phone numbers.
-sms_sender.py: Contains the main script to send SMS messages.
+- key.py: Stores sensitive data like Twilio credentials and phone numbers.
+- sms_sender.py: Contains the main script to send SMS messages.
 
 **Prerequisites**
 
