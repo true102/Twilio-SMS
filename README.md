@@ -13,16 +13,16 @@ This Python script leverages the Twilio API to send SMS messages to a designated
 
 **How It Works**
 
-1- Import Twilio SDK and Credentials:
+- 1- Import Twilio SDK and Credentials:
 The script imports Twilio's Client class and credentials stored in a key.py file.
-2- Initialize the Twilio Client:
+- 2- Initialize the Twilio Client:
 The Client object is instantiated using the account_sid and auth_token.
-3- Send SMS:
+- 3- Send SMS:
 A message is created and sent using Twilio's messages.create() method, specifying the sender, recipient, and message body.
-4- Output the Message SID:
+- 4- Output the Message SID:
 On successful execution, the script prints the unique SID of the sent message for tracking purposes.
-5- Error Handling:
-If any issues occur (e.g., invalid credentials or network errors), they are caught and displayed in the console.
+- 5- Error Handling:
+If any issues occur (invalid credentials or network errors), they are caught and displayed in the console.
 
 **Code Structure**
 
